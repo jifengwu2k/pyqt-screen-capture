@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyqt-screen-capture"
+version = "0.1.0"
+description = "A screen capture utility that works with PyQt6, PySide6, PyQt5, PySide2, and PySide."
+readme = "README.md"
+requires-python = ">=3"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy"
+]
+
+[project.optional-dependencies]
+PyQt6 = ["PyQt6"]
+PySide6 = ["PySide6"]
+PyQt5 = ["PyQt5"]
+PySide2 = ["PySide2"]
+PySide = ["PySide"]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/pyqt-screen-capture"
+"Bug Tracker" = "https://github.com/jifengwu2k/pyqt-screen-capture/issues"
