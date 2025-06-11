@@ -2,10 +2,11 @@
 
 A screen capture utility that works with PyQt6, PySide6, PyQt5, PySide2, and PySide.
 
+Supports Python 2+.
+
 ## Features
 
 - Cross-platform (Windows, Linux, macOS, etc.)
-- Supports Python 3+
 - Automatically detects available Qt bindings
 - Memory-efficient screen capture using shared ndarrays in OpenCV-compatible HWC BGRX 8888 format
 - Simple generator-based interface

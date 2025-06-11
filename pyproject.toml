@@ -4,16 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyqt-screen-capture"
-version = "0.1.0"
+version = "0.1.1"
 description = "A screen capture utility that works with PyQt6, PySide6, PyQt5, PySide2, and PySide."
 readme = "README.md"
-requires-python = ">=3"
+requires-python = ">=2"
 license = "MIT"
 authors = [
   { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
 ]
 classifiers = [
-    "Programming Language :: Python",
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
 dependencies = [
